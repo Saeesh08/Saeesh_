@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f9fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #444;
+}
+
+.hero {
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  background-color: #0066cc;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.about, .blog, .repository {
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.about h2, .blog h2, .repository h2 {
+  font-size: 1.8rem;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.blog ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.blog li {
+  margin-bottom: 1rem;
+}
+
+.blog a {
+  font-weight: 600;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.blog span {
+  display: block;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f1f3f5;
+  font-size: 0.9rem;
+}

@@ -2,70 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>[Your Name] | CS & LLB</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="assets/favicon.ico" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Legal & Strategic Advisor</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <nav>
-      <h1><img src="assets/profile.jpg" class="logo" alt="Logo" /> [Your Name]</h1>
-      <ul>
+    <nav class="navbar">
+      <div class="logo">YourName</div>
+      <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#blogs">Blog</a></li>
-        <li><a href="#repository">Drafts</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#repository">Repository</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section class="hero">
-      <h2>Hey! I'm [Your Name]</h2>
-      <p>Company Secretary | LLB Student | Strategic & Legal Advisor-in-training</p>
-    </section>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm [Your Name]</h1>
+      <p>Company Secretary | Legal Strategist | M&A & Compliance Advisor</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
 
-    <section id="about">
-      <h3>About Me</h3>
-      <p>
-        I am a Company Secretary currently pursuing LLB from Mumbai University. With 10+ months of experience in a PCS firm, I’ve worked on mergers, NCLT matters, ROC filings, and strategic structuring. I am passionate about M&A, compliance, and long-term impact in legal advisory and finance.
-      </p>
-    </section>
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>I’m currently pursuing LLB and have completed 10 months of my 21-month CS articleship. I work on NCLT, M&A, legal drafting, ROC, and advisory for private companies. This site is where I share insights, articles, and documents from my professional journey.</p>
+  </section>
 
-    <section id="blogs">
-      <h3>Latest Blogs</h3>
-      <div class="blog-grid">
-        <a href="blog/blog1.html" class="blog-card">
-          <h4>How a Boardroom Resolution Turned into a Legal Strategy</h4>
-          <p>A real look into a MoA & AoA amendment in light of the Companies Act 2013</p>
-        </a>
-        <a href="blog/blog2.html" class="blog-card">
-          <h4>The Merger Drafting Maze</h4>
-          <p>Lessons learned from reviewing line-by-line edits in a scheme of amalgamation</p>
-        </a>
-      </div>
-    </section>
+  <section class="blog" id="blog">
+    <h2>Recent Blog Posts</h2>
+    <ul>
+      <li>
+        <a href="#">Transitioning a Company from 1956 Act to 2013: Insights from the AOA Rewrite</a>
+        <span>May 2025</span>
+      </li>
+      <li>
+        <a href="#">Demystifying Shareholder Exits: A Practical Guide for Private Companies</a>
+        <span>April 2025</span>
+      </li>
+    </ul>
+  </section>
 
-    <section id="repository">
-      <h3>Request Access to Draft Repository</h3>
-      <p>I've created several legal drafts (resolutions, reports, schemes) that I'm happy to share selectively. Request access using the form below. Approved applicants will receive a private link.</p>
-      <iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </section>
-
-    <section id="contact">
-      <h3>Contact Me</h3>
-      <p>Email: <a href="mailto:youremail@gmail.com">youremail@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/yourlinkedin/" target="_blank">yourlinkedin</a></p>
-      <a href="assets/your-cv.pdf" class="button" download>Download CV</a>
-    </section>
-  </main>
+  <section class="repository" id="repository">
+    <h2>Document Repository</h2>
+    <p>I maintain a growing library of vetted draft documents like Shareholders Agreements, M&A schemes, resolutions, etc. These are available on request.</p>
+    <a href="mailto:your.email@example.com?subject=Request for Draft" class="btn">Request Access</a>
+  </section>
 
   <footer>
-    <p>© [Your Name] 2025</p>
+    <p>© 2025 [Your Name]. All rights reserved. | Designed with ❤️</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>

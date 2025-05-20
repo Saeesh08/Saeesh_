@@ -1,100 +1,71 @@
-body {
-  font-family: 'Inter', sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f9f9fb;
-  color: #222;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>[Your Name] | CS & LLB</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1><img src="assets/profile.jpg" class="logo" alt="Logo" /> [Your Name]</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blogs">Blog</a></li>
+        <li><a href="#repository">Drafts</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-header {
-  background: #ffffff;
-  padding: 1rem 2rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  position: sticky;
-  top: 0;
-}
+  <main>
+    <section class="hero">
+      <h2>Hey! I'm [Your Name]</h2>
+      <p>Company Secretary | LLB Student | Strategic & Legal Advisor-in-training</p>
+    </section>
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+    <section id="about">
+      <h3>About Me</h3>
+      <p>
+        I am a Company Secretary currently pursuing LLB from Mumbai University. With 10+ months of experience in a PCS firm, I’ve worked on mergers, NCLT matters, ROC filings, and strategic structuring. I am passionate about M&A, compliance, and long-term impact in legal advisory and finance.
+      </p>
+    </section>
 
-nav h1 {
-  display: flex;
-  align-items: center;
-  font-size: 1.5rem;
-}
+    <section id="blogs">
+      <h3>Latest Blogs</h3>
+      <div class="blog-grid">
+        <a href="blog/blog1.html" class="blog-card">
+          <h4>How a Boardroom Resolution Turned into a Legal Strategy</h4>
+          <p>A real look into a MoA & AoA amendment in light of the Companies Act 2013</p>
+        </a>
+        <a href="blog/blog2.html" class="blog-card">
+          <h4>The Merger Drafting Maze</h4>
+          <p>Lessons learned from reviewing line-by-line edits in a scheme of amalgamation</p>
+        </a>
+      </div>
+    </section>
 
-nav .logo {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  margin-right: 10px;
-}
+    <section id="repository">
+      <h3>Request Access to Draft Repository</h3>
+      <p>I've created several legal drafts (resolutions, reports, schemes) that I'm happy to share selectively. Request access using the form below. Approved applicants will receive a private link.</p>
+      <iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </section>
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
+    <section id="contact">
+      <h3>Contact Me</h3>
+      <p>Email: <a href="mailto:youremail@gmail.com">youremail@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/yourlinkedin/" target="_blank">yourlinkedin</a></p>
+      <a href="assets/your-cv.pdf" class="button" download>Download CV</a>
+    </section>
+  </main>
 
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-}
+  <footer>
+    <p>© [Your Name] 2025</p>
+  </footer>
 
-.hero {
-  padding: 3rem 2rem;
-  text-align: center;
-  background: #e6f0ff;
-}
-
-.hero h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-section {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-}
-
-.blog-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-}
-
-.blog-card {
-  background: white;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  text-decoration: none;
-  color: #222;
-  transition: 0.2s ease;
-}
-
-.blog-card:hover {
-  transform: translateY(-2px);
-}
-
-.button {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background: #0050b3;
-  color: white;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-footer {
-  text-align: center;
-  padding: 2rem;
-  background: #f1f3f5;
-  font-size: 0.9rem;
-}
+  <script src="script.js"></script>
+</body>
+</html>
